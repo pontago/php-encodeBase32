@@ -3,7 +3,7 @@
 function encodeBase32($str) {
   $table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
 
-  $buffer	= unpack('C*', $str);
+  $buffer = unpack('C*', $str);
   $len = count($buffer);
   $n = 1;
 
